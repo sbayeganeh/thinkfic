@@ -1,4 +1,6 @@
 import { PrismaClient } from "@prisma/client";
+
+/*
 const userData = [
   {
     name: "Jane",
@@ -26,6 +28,7 @@ const userData = [
   },
 ];
 
+
 async function seed() {
   const prisma = new PrismaClient();
 
@@ -43,5 +46,8 @@ async function seed() {
     await prisma.$disconnect();
   }
 }
+*/
+
+async function seed() {}
 
 seed();

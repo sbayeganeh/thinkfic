@@ -20,4 +20,6 @@ model Post {
   id        Int     @default(autoincrement()) @id
   title     String
   author    User?   @relation(fields: [authorId], references: [id])
+  createdAt String
+  sentiment String
 }
